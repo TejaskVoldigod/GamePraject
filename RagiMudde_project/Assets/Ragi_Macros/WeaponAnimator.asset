@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: WeaponAnimator
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":374.0,"y":-44.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"name":{"$content":"shootDone","$type":"System.String"}},"position":{"x":31.0,"y":-104.0},"guid":"c98766bf-9198-479c-a5ad-8d240cf4826a","$version":"A","$type":"Unity.VisualScripting.BoltNamedAnimationEvent","$id":"9"},{"argumentCount":0,"defaultValues":{"name":{"$content":"OnAnimShootDone","$type":"System.String"},"target":null},"position":{"x":440.0,"y":-123.0},"guid":"af8b5546-2bfa-4401-8d3a-2418460bbec3","$version":"A","$type":"Unity.VisualScripting.TriggerCustomEvent","$id":"11"},{"coroutine":false,"defaultValues":{"name":{"$content":"reloadDone","$type":"System.String"}},"position":{"x":37.0,"y":116.0},"guid":"0ee3e66c-6e4c-400d-a894-d528966148b5","$version":"A","$type":"Unity.VisualScripting.BoltNamedAnimationEvent","$id":"13"},{"argumentCount":0,"defaultValues":{"name":{"$content":"OnAnimReloadDone","$type":"System.String"},"target":null},"position":{"x":415.0,"y":95.0},"guid":"451758f8-4992-4b58-83e4-82efc6007c5d","$version":"A","$type":"Unity.VisualScripting.TriggerCustomEvent","$id":"15"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"enter","guid":"b9c8824d-c9c6-4727-a09e-88765c159f43","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"trigger","destinationUnit":{"$ref":"15"},"destinationKey":"enter","guid":"f55787af-76ee-40f7-b87e-c2fb2e6c2dc0","$type":"Unity.VisualScripting.ControlConnection"}],"$version":"A"}}'
+    _objectReferences: []
