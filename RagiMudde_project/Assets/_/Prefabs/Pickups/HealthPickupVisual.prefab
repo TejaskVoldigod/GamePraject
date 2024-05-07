@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 457783950216457509}
   - component: {fileID: 457783950216457508}
   - component: {fileID: 457783950216457511}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26,12 +26,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 457783950216457505}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 457783950239097302}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &457783950216457509
 MonoBehaviour:
@@ -45,7 +46,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8233d90336aea43098adf6dbabd606a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MeshFormatVersion: 1
+  m_MeshFormatVersion: 2
   m_Faces:
   - m_Indexes: 000000000100000002000000010000000300000002000000
     m_SmoothingGroup: 0
@@ -481,7 +482,7 @@ MonoBehaviour:
       m_SwapUV: 0
       m_Fill: 1
       m_Scale: {x: 1, y: 1}
-      m_Offset: {x: 0, y: 0}
+      m_Offset: {x: 0, y: 0.000000059604645}
       m_Rotation: 0
       m_Anchor: 9
     m_Material: {fileID: 0}
@@ -566,7 +567,7 @@ MonoBehaviour:
       m_SwapUV: 0
       m_Fill: 1
       m_Scale: {x: 1, y: 1}
-      m_Offset: {x: 0, y: 0}
+      m_Offset: {x: 0, y: -0.00000023841858}
       m_Rotation: 0
       m_Anchor: 9
     m_Material: {fileID: 0}
@@ -989,10 +990,10 @@ MonoBehaviour:
   - {x: 0.6021887, y: 0.36165845}
   - {x: 0.46076733, y: -0.440423}
   - {x: 0.46076733, y: 0.46165848}
-  - {x: -0.4, y: -0.62930006}
-  - {x: 0.39999998, y: -0.62930006}
-  - {x: -0.5, y: -0.48787868}
-  - {x: 0.5, y: -0.48787868}
+  - {x: -0.4, y: -0.6293002}
+  - {x: 0.39999998, y: -0.6293002}
+  - {x: -0.5, y: -0.48787877}
+  - {x: 0.5, y: -0.48787877}
   - {x: 0.4, y: 0.61204165}
   - {x: -0.39999998, y: 0.61204165}
   - {x: 0.5, y: 0.4706204}
@@ -1009,10 +1010,10 @@ MonoBehaviour:
   - {x: -0.4, y: 0.6732885}
   - {x: 0.5, y: 0.53186727}
   - {x: -0.5, y: 0.53186727}
-  - {x: 0.4, y: 0.6443165}
-  - {x: -0.39999998, y: 0.6443165}
-  - {x: 0.5, y: 0.5028951}
-  - {x: -0.5, y: 0.5028951}
+  - {x: 0.4, y: 0.6443168}
+  - {x: -0.39999998, y: 0.6443168}
+  - {x: 0.5, y: 0.50289536}
+  - {x: -0.5, y: 0.50289536}
   - {x: -0.60218936, y: 0.36165845}
   - {x: -0.60218936, y: -0.340423}
   - {x: -0.46076798, y: 0.46165848}
@@ -1136,10 +1137,10 @@ MonoBehaviour:
   - {x: 1, y: 0, z: 0, w: -1}
   - {x: 1, y: 0, z: 0, w: -1}
   - {x: 1, y: 0, z: 0, w: -1}
-  - {x: 0.70710677, y: 0, z: 0.70710677, w: -1}
-  - {x: 0.70710677, y: 0, z: 0.70710677, w: -1}
-  - {x: 0.70710677, y: 0, z: 0.70710677, w: -1}
-  - {x: 0.70710677, y: 0, z: 0.70710677, w: -1}
+  - {x: 0.7071068, y: 0, z: 0.7071068, w: -1}
+  - {x: 0.7071068, y: 0, z: 0.7071068, w: -1}
+  - {x: 0.7071068, y: 0, z: 0.7071068, w: -1}
+  - {x: 0.7071068, y: 0, z: 0.7071068, w: -1}
   - {x: 0.7071067, y: 0, z: -0.7071069, w: -1}
   - {x: 0.7071067, y: 0, z: -0.7071069, w: -1}
   - {x: 0.7071067, y: 0, z: -0.7071069, w: -1}
@@ -1152,14 +1153,14 @@ MonoBehaviour:
   - {x: -1, y: 0, z: 0, w: -1}
   - {x: -1, y: 0, z: 0, w: -1}
   - {x: -1, y: 0, z: 0, w: -1}
-  - {x: 0.7071072, y: 0.70710653, z: 0, w: -1}
+  - {x: 0.7071071, y: 0.7071065, z: 0, w: -1}
   - {x: 0.7071071, y: 0.70710653, z: 0, w: -1}
   - {x: 0.7071071, y: 0.70710653, z: 0, w: -1}
   - {x: 0.7071071, y: 0.70710653, z: 0, w: -1}
   - {x: 0.7071073, y: -0.70710635, z: 0, w: -1}
-  - {x: 0.70710725, y: -0.7071064, z: 0, w: -1}
-  - {x: 0.70710725, y: -0.7071064, z: 0, w: -1}
-  - {x: 0.70710725, y: -0.7071064, z: 0, w: -1}
+  - {x: 0.7071072, y: -0.70710635, z: 0, w: -1}
+  - {x: 0.7071072, y: -0.70710635, z: 0, w: -1}
+  - {x: 0.7071072, y: -0.70710635, z: 0, w: -1}
   - {x: 1, y: 0, z: 0, w: -1}
   - {x: 1, y: 0, z: 0, w: -1}
   - {x: 1, y: 0, z: 0, w: -1}
@@ -1205,6 +1206,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
+  m_VersionIndex: 3
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -1220,10 +1222,12 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1248,6 +1252,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!33 &457783950216457511
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1265,8 +1270,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 457783950239097302}
-  m_Layer: 8
-  m_Name: Visual
+  m_Layer: 6
+  m_Name: HealthPickupVisual
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1279,11 +1284,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 457783950239097297}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 457783950216457514}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
