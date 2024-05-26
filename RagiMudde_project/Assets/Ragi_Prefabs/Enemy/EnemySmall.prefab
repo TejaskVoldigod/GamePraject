@@ -66,7 +66,7 @@ MonoBehaviour:
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.Transform,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"patrolPositionIndex","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"attackRange","value":{"$content":2.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"attackRange","value":{"$content":4.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"attackTimer","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"healthAmount","value":{"$content":50,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"healthAmountMax","value":{"$content":-1,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
@@ -647,7 +647,7 @@ PrefabInstance:
     - target: {fileID: 4715694260337494630, guid: 5950007def8328640a1f901c70f4ee99,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4715694260337494630, guid: 5950007def8328640a1f901c70f4ee99,
         type: 3}
@@ -857,7 +857,7 @@ PrefabInstance:
     - target: {fileID: 5591817397663559789, guid: 5950007def8328640a1f901c70f4ee99,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5591817397663559789, guid: 5950007def8328640a1f901c70f4ee99,
         type: 3}

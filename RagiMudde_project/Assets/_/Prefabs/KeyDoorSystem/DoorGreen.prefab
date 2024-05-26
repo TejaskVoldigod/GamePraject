@@ -16,32 +16,32 @@ PrefabInstance:
     - target: {fileID: 221627949960281290, guid: 48571494dc84780429d63ddfebd083d3,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.2033
+      value: 2.979491
       objectReference: {fileID: 0}
     - target: {fileID: 221627949960281290, guid: 48571494dc84780429d63ddfebd083d3,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.2033
+      value: 2.979491
       objectReference: {fileID: 0}
     - target: {fileID: 221627949960281290, guid: 48571494dc84780429d63ddfebd083d3,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.2033
+      value: 2.979491
       objectReference: {fileID: 0}
     - target: {fileID: 221627949960281290, guid: 48571494dc84780429d63ddfebd083d3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.1735
+      value: -25.773176
       objectReference: {fileID: 0}
     - target: {fileID: 221627949960281290, guid: 48571494dc84780429d63ddfebd083d3,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.012598038
+      value: 10.832985
       objectReference: {fileID: 0}
     - target: {fileID: 221627949960281290, guid: 48571494dc84780429d63ddfebd083d3,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 40.199066
+      value: 73.86
       objectReference: {fileID: 0}
     - target: {fileID: 221627949960281290, guid: 48571494dc84780429d63ddfebd083d3,
         type: 3}
@@ -102,7 +102,7 @@ PrefabInstance:
     - target: {fileID: 5600340269883729049, guid: 48571494dc84780429d63ddfebd083d3,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5600340269883729049, guid: 48571494dc84780429d63ddfebd083d3,
         type: 3}
@@ -112,7 +112,7 @@ PrefabInstance:
     - target: {fileID: 5759350266865981419, guid: 48571494dc84780429d63ddfebd083d3,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5759350266865981419, guid: 48571494dc84780429d63ddfebd083d3,
         type: 3}
@@ -127,7 +127,7 @@ PrefabInstance:
     - target: {fileID: 8832455100260537478, guid: 48571494dc84780429d63ddfebd083d3,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8832455100260537478, guid: 48571494dc84780429d63ddfebd083d3,
         type: 3}
@@ -207,7 +207,7 @@ PrefabInstance:
     - target: {fileID: 9170257399026127805, guid: 48571494dc84780429d63ddfebd083d3,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 9170257399026127805, guid: 48571494dc84780429d63ddfebd083d3,
         type: 3}
@@ -316,8 +316,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"key","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 0}
 --- !u!114 &6884173270789117815
 MonoBehaviour:
   m_ObjectHideFlags: 0
